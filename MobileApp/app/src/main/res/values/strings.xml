@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">R3d_Mushr00m Companion</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="belem">Built on the northern bank of the Tagus between 1514 and 1520 as part of the Tagus estuary defence system, the Tower of Belém is one of the architectural jewels of the reign of Manuel I.
+In the tower as a whole one can distinguish two distinct volumes and military architectural models: the mediaeval keep tower and the modern... Read More</string>
+
+    <string name="user_username"></string>
+
+    <string-array name="sort_array">
+        <item>Medals</item>
+        <item>Damage</item>
+        <item>KDR</item>
+    </string-array>
+
+    <string-array name="sort_poi">
+        <item>Distance</item>
+        <item>Availability</item>
+        <item>Date</item>
+    </string-array>
+
+    <string-array name="unlock">
+        <item>Date</item>
+        <item>Guns</item>
+        <item>Missions</item>
+    </string-array>
+</resources>

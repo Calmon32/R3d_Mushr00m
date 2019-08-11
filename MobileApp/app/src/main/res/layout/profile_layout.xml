@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/username"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:text="@string/user_username"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lin2"
+        android:layout_below="@+id/lin1"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"></LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+
+        android:layout_below="@+id/lin2"
+        android:id="@+id/stats_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="30dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapFab"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/map" />
+</RelativeLayout>
